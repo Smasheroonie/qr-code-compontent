@@ -38,6 +38,7 @@ body {
   margin: auto;
   padding: 15px;
   width: 320px;
+  box-shadow: 0 10px 40px 0.1px hsla(217, 45%, 22%, 0.20);
 }
 
 #qr {
