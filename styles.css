@@ -1,0 +1,84 @@
+Box sizing rules *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+body,
+h1,
+p {
+  margin-block-end: 0;
+}
+
+h1 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+body {
+  min-height: 95vh;
+  line-height: 1.5;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  text-align: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+#card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  margin: auto;
+  padding: 15px;
+  width: 320px;
+}
+
+#qr {
+  border-radius: 10px;
+  width: 320px;
+}
+
+#header,
+#info {
+  font-family: "Outfit", sans-serif;
+  margin: auto;
+}
+
+#header {
+  width: 280px;
+  padding: 16px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+#info {
+  width: 260px;
+  font-weight: 400;
+  padding-bottom: 25px;
+  color: hsl(216, 15%, 48%);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(218, 44%, 22%);
+}
+
+#attribution {
+  font-size: 12px;
+  text-align: center;
+}
+#attribution a {
+  color: hsl(228, 45%, 44%);
+}
